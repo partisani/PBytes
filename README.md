@@ -6,9 +6,9 @@ Pbytes is a very minimal and simple Bytecode VM, made in python, based on two cl
 
 1. Install `bson`: `pip install bson`.
 
-2. Put the src folder into yours project folder, then import it in any way you want. Like `import src.vm` or any way you want.
+2. Put the src folder into yours project folder, then import it in any way you want. Like `import pbytes` or any way you want.
 
 
 ### Usage:
 
-Not written yet.
+Not written yet...
