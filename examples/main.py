@@ -1,4 +1,4 @@
-import vm
+import pbytes
 import bson
 import json
 from sys import argv
@@ -8,7 +8,7 @@ def _main(args):
 	for arg in args:
 		if arg == "--run":
 			filename = args[args.index(arg) + 1]
-			parser = vm.Parser(vm._bytecode_to_dict_(filename))
+			parser = pbytes.Parser(pbytes._bytecode_to_dict_(filename))
 			parser._run()
 		if arg == "--compile":
 			filename = args[args.index(arg) + 1]
